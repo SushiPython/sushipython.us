@@ -1,0 +1,56 @@
+[
+  {
+    "title": "SushiPython.US",
+    "lang": "HTML/Python",
+    "desc": "A portfolio site showcasing all of my work, as well as a little bit about me.",
+    "url": "https://sushipython.us"
+  }, 
+  {
+    "title": "Coronavirus Stat Tracker",
+    "lang": "Python",
+    "desc": "A simple, easy to use, and accurate Coronavirus Stat Tracker for everyday use.",
+    "url": "https://covid.sushipython.us"
+  }, 
+  {
+    "title": "SushiBot",
+    "lang": "Python",
+    "desc": "A discord bot that combines many of my unfinished project into one, as well as some other unique features.",
+    "url": "https://bot.sushipython.us"
+  }, 
+  {
+    "title": "Legacy SushiPython.US",
+    "lang": "HTML",
+    "desc": "The old SushiPython.US, made with W3.CSS.",
+    "url": "https://legacy.sushipython.us"
+  }, 
+  {
+    "title": "i.sushipython.us",
+    "lang": "Python",
+    "desc": "Simple Anonymous Image Uploader built for ShareX.",
+    "url": "https://i.sushipython.us"
+  }, 
+  {
+    "title": "PyBin",
+    "lang": "HTML/Python",
+    "desc": "A simple, anonymous pastebin for simple personal usage. Includes highlight.js syntax highlighting and a link to share your code.",
+    "url": "https://p.sushipython.us"
+  }, 
+  {
+    "title": "GraphBot",
+    "lang": "Python",
+    "desc": "Statistics discord bot that tracks server member count over time.",
+    "url": "https://graphbot.sushipython.repl.co"
+  }, 
+  {
+    "title": "Minecraft Manhunt",
+    "lang": "Java",
+    "desc": "Simple minecraft manhunt plugin for version 1.8-1.16.1",
+    "url": "https://www.spigotmc.org/resources/minecraft-manhunt.80846/"
+  }, 
+  {
+    "title": "WebConnect",
+    "lang": "Python/HTML",
+    "desc": "Simple social media platform made for the 2020 PieMadd Hackathon.",
+    "url": "https://webconnect.sushipython.us"
+  }
+]

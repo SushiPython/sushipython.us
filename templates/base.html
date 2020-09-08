@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+<head>
+<meta charset='UTF-8'>
+<title>SushiPython [{% block title %}Home{% endblock %}]</title>
+<meta property="og:title" content='{{ desc }}' />
+<meta property="og:description" content="{% block sitedesc %}Hi, I'm SushiPython, but you can call me Sushi. I like to code, as well as play video games. I 'know' a few languages, including HTML, PHP, and Python. I am somewhat of a beginner coder, as I have been coding for about 5 months, and have acquired pieces of many languages along the way. Besides coding, I have always been interested in music, arts, and technology.{% endblock %}" />
+<meta property="og:url" content="https://sushipython.us" />
+<meta property="og:image" content="/images/logo.jpg" />
+<meta http-equiv="content-language" content="en">
+<meta name="Description" content="Hi, I'm SushiPython, but you can call me Sushi. I like to code, as well as play video games. I 'know' a few languages, including HTML, PHP, and Python. I am somewhat of a beginner coder, as I have been coding for about 5 months, and have acquired pieces of many languages along the way. Besides coding, I have always been interested in music, arts, and technology.">
+<meta name=viewport content="width=device-width, initial-scale=1">  
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body class="fade-in">
+  {% block topbar %}
+  <div class="topnav center">
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="/projects">Projects</a>
+  </div>
+  {% endblock %}
+  {% block body %}
+  <h1>Uh oh!</h1>
+	<p>Something went wrong...</p>
+	{% endblock %}
+<style>
+  h2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+  }
+  .centerhorizontally {
+    display: block;
+    margin: 0 auto;
+  }
+  img {
+    width: 350px;
+    height: 350px;
+  }
+  @media screen and (max-width: 992px) {
+    img {
+      width: 300px;
+      height: 300px;
+    }
+    h2 {
+      font-size: 25px;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    img {
+      width: 150px;
+      height: 150px;
+    }
+    .margin-fixer {
+      margin-top: 5px;
+    }
+    h2 {
+      font-size: 20px;
+    }
+  }
+  html {
+    word-wrap: break-word;
+    background-color: #080808;
+    font-family: 'Open Sans', sans-serif;
+    color: #eee;
+  }
+  h1 {
+    font-size: 65px;
+    text-align: center;
+    font-weight: 300;
+  }
+  h4,span {
+    text-align: center;
+    font-weigth: 300;
+  }
+  p {
+    width: 60%;
+    font-size: 20px;
+  }
+  img:hover, .topnav:hover {
+    box-shadow: 0 0 15px 5px black;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  .center {
+    margin: 0 auto;
+    width: 60em;
+    max-width: 90%;
+    text-align: center;
+  }
+  .description {
+    margin-top: 15px;
+  }
+  .topnav {
+  background-color: #333;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #eee;
+  color: #111;
+}
+
+.active {
+  background-color: #181818;
+  color: #111;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.fade-in{-webkit-animation:fadein 2s;-moz-animation:fadein 2s;-ms-animation:fadein 2s;-o-animation:fadein 2s;animation:fadein 2s;}
+@keyframes fadein{from{opacity:0;}
+to{opacity:1;}
+}
+@-moz-keyframes fadein{from{opacity:0;}
+to{opacity:1;}
+}
+@-webkit-keyframes fadein{from{opacity:0;}
+to{opacity:1;}
+}
+@-ms-keyframes fadein{from{opacity:0;}
+to{opacity:1;}
+}
+.card {
+  background-color: black;
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.051),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.073),
+    0 12.5px 10px rgba(0, 0, 0, 0.09),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.107),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.129),
+    0 100px 80px rgba(0, 0, 0, 0.18)
+  ;
+}
+
+.container {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  padding-top: 5px;
+  margin-top: 5px;
+}
+</style>
+</body>
+<footer style="text-align: center;margin-top: 15px;">
+© 2020 <a href="sushipython.us">SushiPython</a>
+</footer>
+</html>

@@ -1,0 +1,15 @@
+{% extends "base.html" %} 
+{% block title %}About{% endblock %}
+{% block topbar %}
+<div class="topnav center">
+  <a class="flex" href="/">Home</a>
+  <a class="active flex" href="/about">About</a>
+  <a class="flex" href="/projects">Projects</a>
+</div>
+{% endblock %}
+{% block body %}
+<div class="center">
+<h1 style="margin-bottom: -6px;">About Me</h1>
+<h2>{{ desc }}</h2>
+</div>
+{% endblock %}

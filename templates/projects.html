@@ -1,0 +1,23 @@
+{% extends "base.html" %} 
+{% block title %}Projects{% endblock %}
+{% block topbar %}
+<div class="topnav center">
+  <a class="flex" href="/">Home</a>
+  <a class="flex" href="/about">About</a>
+  <a class="active flex" href="/projects">Projects</a>
+</div>
+{% endblock %}
+{% block body %}
+<div class="center">
+<h1>Projects</h1>
+{% for p in pd %}
+<div class="card">
+<div class="container">
+<h2><a href="{{p['url']}}">{{p['title']}}</a></h2>
+<h4>{{p['lang']}}</h4>
+<span>{{p['desc']}}</span>
+</div>
+</div>
+{% endfor %}
+</div>
+{% endblock %}
