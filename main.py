@@ -17,8 +17,8 @@ app = web.Application(middlewares=[redirect_php])
 aiohttp_jinja2.setup(app,
   loader=jinja2.FileSystemLoader('templates'))
 
-desc = '''Hi, I'm SushiPython, but you can call me Sushi. I like to code, as well as play video games. I know a few languages, including HTML, Python, and JS. Besides coding, I have always been interested in music, arts, and technology. I am currently learning backend JavaScript, as well as Java and MC Plugin Development. I have also been experimenting with Operating Systems such as Ubuntu and ArchLinux.
-I am a web developer, and nearly everything I code is available on a website. If not, it's probably a terminal. Most of my projects are open source and public on a site called replit, if you are ever curious on how I code any of my projects. You can send me an email at contact@sushipython.us, and for coders who know what * means, you can send me an email at *@sushipython.us as well.
+desc = '''Hi, I'm SushiPython, but you can call me Sushi. I like to code, as well as play video games. I know a few languages, including HTML, Python, and JS. Besides coding, I have always been interested in music, arts, and technology. I am currently learning backend JavaScript, as well as Java and MC Plugin Development. I have also been experimenting with Operating Systems such as Debian and ArchLinux.
+I am a web developer, and nearly everything I code is available on a website. If not, it's probably a terminal. Most of my projects are open source and public on a site called replit, if you are ever curious on how I code any of my projects. You can send me an email at contact@sushipython.us, and for people who know what * means, you can send me an email at *@sushipython.us as well.
 This site is made in HTML with Jinja2 templating and Python on the backend.'''
 
 @routes.get('/')
