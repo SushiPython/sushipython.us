@@ -12,7 +12,14 @@ async def redirect_php(request, handler):
   response = await handler(request)
   return response
 
-app = web.Application(middlewares=[redirect_php])
+@web.middleware
+async def cache_images(request, handler):
+  response = await handler(request)
+  if request.path.endswith('.png') or request.path.endswith('.jpg'):
+    response.headers['cache-control'] = 'max-age=86400'
+  return response
+
+app = web.Application(middlewares=[redirect_php, cache_images])
 
 aiohttp_jinja2.setup(app,
   loader=jinja2.FileSystemLoader('templates'))

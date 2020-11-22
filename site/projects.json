@@ -1,5 +1,11 @@
 [
   {
+    "title": "SushiStats 🍣",
+    "lang": "HTML/Python",
+    "desc": "An elegant Hypixel Stats viewing website!"
+    "url": "https://ss.sushipython.us/"
+  },
+  {
     "title": "SushiPython.US",
     "lang": "HTML/Python",
     "desc": "A portfolio site showcasing all of my work, as well as a little bit about me.",
