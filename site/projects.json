@@ -6,6 +6,12 @@
     "url": "https://ss.sushipython.us/"
   },
   {
+    "title": "BlockStats",
+    "lang": "HTML/Python",
+    "desc": "Elegant minecraft server statistics!",
+    "url": "https://bs.sushipython.us"
+  },
+  {
     "title": "SushiPython.US",
     "lang": "HTML/Python",
     "desc": "A portfolio site showcasing all of my work, as well as a little bit about me.",
@@ -28,7 +34,13 @@
     "lang": "HTML",
     "desc": "The old SushiPython.US, made with W3.CSS.",
     "url": "https://legacy.sushipython.us"
-  }, 
+  },
+  {
+    "title": "Dict",
+    "lang": "HTML/Python",
+    "desc": "World's simplest dictionary.",
+    "url": "https://dict.sushipython.us"
+  },
   {
     "title": "i.sushipython.us",
     "lang": "Python",
